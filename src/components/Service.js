@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 const Service = ({ icon, title, text }) => {
   return (
@@ -14,7 +13,5 @@ const Service = ({ icon, title, text }) => {
     </article>
   )
 }
-
-Service.propTypes = {}
 
 export default Service
